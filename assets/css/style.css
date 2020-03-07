@@ -1,0 +1,72 @@
+html {
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/images/backgroundimage.jpg");
+}
+.wrapper {
+  padding-bottom: 100px;
+}
+
+.title {
+  text-align: center;
+}
+
+#me {
+  height: 200px;
+  border-radius: 5em;
+  justify-content: center;
+  margin-top: 20px;
+}
+.main {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.about {
+  margin-top: 30px;
+  justify-content: center;
+  width: 70%;
+  margin-left: 15%;
+}
+.secondary {
+  width: 80%;
+
+  flex-direction: column;
+}
+.portfolio-image {
+  border-radius: 1em;
+
+  align-content: center;
+}
+.contact {
+  text-align: center;
+}
+.icon {
+  float: left;
+  height: 30px;
+  margin-right: 10px;
+}
+.link {
+  position: relative;
+}
+#linkedin {
+  height: 25px;
+  margin-right: 15px;
+}
+footer {
+  background: rgba(255, 255, 255, 1);
+  opacity: 60%;
+  width: 100%;
+  height: 65px;
+  bottom: 0;
+  position: fixed;
+  border-top: 8px solid darkgrey;
+  text-align: center;
+  padding: 15px 0;
+  clear: both;
+}
