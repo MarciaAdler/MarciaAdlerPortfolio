@@ -29,6 +29,9 @@ body {
   border-radius: 2em;
   margin: 15px;
 }
+.nav-link {
+  color: darkblue;
+}
 #me {
   height: 200px;
   border-radius: 5em;
