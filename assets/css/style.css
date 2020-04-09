@@ -54,7 +54,8 @@ body {
 }
 .portfolio-image {
   border-radius: 1em;
-
+  height: 400px;
+  width: auto;
   align-content: center;
 }
 @media (max-width: 767px) {
